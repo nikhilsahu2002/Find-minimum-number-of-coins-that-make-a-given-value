@@ -19,8 +19,8 @@ if (coin1 > c)
 	printf("-1");
 else
 {
-	printf("The number of 5 rupee coin need is %d \n",coin5);
-	printf("The Number of 1 repee coin need is %d \n",coin1);
+	printf("The number of 5 rupee coin need is %d \n",coin_of_5);
+	printf("The Number of 1 repee coin need is %d \n",coin_of_1);
 }
 getch();
 }
