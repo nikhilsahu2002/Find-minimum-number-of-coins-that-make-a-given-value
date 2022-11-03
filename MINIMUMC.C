@@ -13,7 +13,7 @@ printf("Enter the number of 1 rupee coin ");
 scanf("%d",&c);
 coin_of_5 = amount/5;
 coin_of_1 = amount%5;
-if (coin_of_5 > b && coin_of_1 >c )
+if (coin_of_5 > b || coin_of_1 >c )
 	printf("-1");
 //if (coin1 > c)
 //	printf("-1");
